@@ -5,7 +5,7 @@
    - Remember to initialize it with a README.md
 2. In command line, navigate to your “Documents” Folder:
    - Clone the repo to your computer using `git clone {url}`
-3. Create a file called “notSoRandom.js”
+3. Inside of this repo, create a file called “notSoRandom.js”
 4. Inside of this file, create the following 5 functions:
    - `random` - takes 1 number argument and console.logs a random integer between 0 and the given number (exclusively)
      ```javascript
