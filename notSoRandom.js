@@ -16,6 +16,8 @@ const randomLetter = function (str) {
     // if (typeof str !== "string") throw new TypeError;
     // BONUS - extra arguments 
     // if (arguments.length > 1) throw "Too many arguments given!";
+    
+    // You can treat a string like an array of single characters and use indexing!
     console.log(str[random(str.length)]);
 }
 // myGuy - takes 1 string argument and console.logs the same string with “, my guy.” at the end of it
