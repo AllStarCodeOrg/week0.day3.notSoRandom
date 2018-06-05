@@ -40,7 +40,7 @@
    - Default values allow functions to work even when the function is called without arguments
    - Provide default values (choose whatever values you’d like!) for each parameter in the functions you’ve made
 - At the other extreme, sometimes a function is given too many arguments. Look up the `arguments` array for functions in JavaScript. 
-   - When more arguments are given than there are parameters to fill, the overflow gets pushed into a default array called `arguments` that only exists within the scope of the function
+   - All arguments are pushed into a default array called `arguments` that only exists within the scope of the function
    - For each of the functions we made, if the function is called with extra arguments, `throw` a message informing the user “Too many arguments given!”
      - *Note: Remember to `throw` the message BEFORE executing the rest of the code, since throws halt the rest of the code from executing*
      - The `throw` keyword in JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw
