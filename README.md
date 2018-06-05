@@ -32,7 +32,8 @@
    ```javascript
    hypotenuse(3,4); // 5
    ```
-5. Remember to add, commit, and push your changes!
+5. Be sure to test to see if your functions are working as expected by calling them at the end of your script and running the `node notSoRandom.js` command in your console.
+6. Remember to add, commit, and push your changes!
 
 ## Extra Credit
 - Look up how to set default parameter values for functions in JavaScript
